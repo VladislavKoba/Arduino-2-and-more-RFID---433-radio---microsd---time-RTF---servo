@@ -20,7 +20,7 @@ used components:
 
 
 
-dont mind about relay on reed switch there should be just resistor on 10 KOm
+>dont mind about relay on reed switch there should be just resistor on 10 KOm
 
 ```
 #include <SPI.h>
