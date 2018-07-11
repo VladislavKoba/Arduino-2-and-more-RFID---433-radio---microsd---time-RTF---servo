@@ -5,7 +5,7 @@ code whith comments here becouse nano v3 has not much memory
 -------
 This project allows to make security system on its base. U can regist the number of used rfid card, the time when it was used, the rfid module, that regist the card. It understand when the door is closing, and it can be opened on a distance using radio.
 
-The main problem that i faced whith was the ss pins on rfid modules, there is should be only one ss pin conected to arduino, in other case, arduino just dont react on 2 and more modules. And using of Bread board(model shield) doesn`t helps, couse ss-pin wants quality voltage, so, the the decision was or soldering, or creating of a board. And, as i don't know how to etch boards, i decided to create this monster only by soldering:D  
+The main problem that i faced whith was the ss pins on rfid modules, there is should be only one ss pin conected to arduino, in other case, arduino just dont react on 2 and more modules. And using of Bread board(model shield) doesn`t helps, couse rfid modules wants quality voltage, so, the decision was or soldering, or creating of a board. And, as i don't know how to etch boards, i decided to create this monster only by soldering:D  
 ![alt text](https://github.com/VladislavKoba/Arduino-2-and-more-RFID---433-radio---microsd---time-RTF---servo/blob/master/photo_2018-04-23_16-48-35.jpg?raw=true)
 ```
 #include <SPI.h>
