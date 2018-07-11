@@ -1,5 +1,5 @@
 # Arduino-2-and-more-RFID---433-radio---microsd---time-RTF---servo
-Arduino Nano v3 project for security system
+Arduino Nano v3 project for security system with a few RFID
 -------
 code whith comments here becouse nano v3 has not much memory
 -------
